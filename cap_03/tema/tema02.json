@@ -1,0 +1,62 @@
+{
+    "name": "tema 02",
+    "dataColors": ["#7371fc", "#877dda", "#928ab8", "#969696"],
+    "bad": "#ff7477",
+    "neutral": "#969696",
+    "good": "#7371fc",
+    "visualStyles":{
+        "*":{
+            "*":{
+                "border": 	[{
+                    "show": true,
+                    "color": {"solid": {"color": "#ffffff"}},
+                    "radius": 15
+                    }],
+                "font-fontFamily": "Quicksand Light",
+                "fontColor": {"solid":{"color":"#000000"}},
+                "fontSize":10,
+                "title":[{
+                    "fontFamily":"Quicksand",
+                    "bold":true,
+                    "alignment":"center",
+                    "fontSize":12
+                }],
+                "valueAxis":[{
+                    "showAxisTitle":false,
+                    "gridlineShow":false
+                }],
+                "categoryAxis":[{
+                    "showAxisTitle":false,
+                    "gridlineShow":false
+                }]
+            }
+        },
+        "lineChart":{
+            "*":{
+                "lineStyles": [{
+					"strokeWidth": 2,
+					"strokeLineJoin": "round",
+					"lineStyle": "solid",
+					"showMarker": true,
+					"markerShape": "circle",
+					"markerSize": 3,
+					"markerColor": { "solid": { "color": "#7371fc"}}
+				}],
+                "labels":[{
+                    "show":true
+                }]
+            }
+        },
+        "page":{
+            "*":{
+                "background":[{
+                    "color":{
+                        "solid":{"color":"#E6E6E6"}
+                    },
+                    "transparency":20
+                }]
+            }
+        }
+    }
+
+}
