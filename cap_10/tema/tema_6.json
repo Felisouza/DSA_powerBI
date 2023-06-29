@@ -29,7 +29,7 @@
                 }],
                 "*":[{
                     "fontFamily": "Quicksand Light",
-                    "color": {"solid": {"color": "#ffffff"}},
+                    "fontColor": {"solid": {"color": "#ffffff"}},
                     "fontSize":9
                 }],
                 "background":[{

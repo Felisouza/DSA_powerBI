@@ -1,0 +1,59 @@
+﻿{
+    "name": "Custom",
+    "dataColors":["#fdd05a", "#ff9170", "#d16b90", "#7d5d93", "#284b70"],
+    
+
+    "bad": "#FF6A64",
+    "neutral": "#B6AA96",
+    "good": "#52A799",
+    "visualStyles": {
+        "*": {
+            "*":{
+                "legend": [{
+                    "fontSize": 8,
+                    "labelColor": { "solid": { "color": "#ffffff" } },
+                    "showTitle": false
+
+                }],
+                "categoryAxis": [{
+                    "fontSize": 8,
+                    "labelColor": { "solid": { "color": "#ffffff" } }
+                }],
+                "valueAxis": [{
+                    "fontSize": 8,
+                    "labelColor": { "solid": { "color": "#ffffff" } }
+                }],
+                "title":[
+                    {
+                        "show": true, 
+                        "fontFamily":"Raleway Thin", 
+                        "fontColor":{"solid":{"color":"#ffffff"}},
+                        "fontSize":11,
+                        "bold": true,
+                        "allignment":"center"
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "color":{"solid":{"color":"#000000"}}
+                    }
+                ]}
+            }
+        ,
+        "page": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#2c2c2c"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ]
+            }
+        }
+    }
+}
