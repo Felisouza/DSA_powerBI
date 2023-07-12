@@ -22,7 +22,7 @@ Ao participar deste curso, você receberá muito mais do que informações. Voc�
 - [x] Capítulo 8 - Power BI Para Análise de Dados Financeiros
 - [x] Capítulo 9 - Power BI Para Análise de Dados Contábeis
 - [x] Capítulo 10 - Power BI Para Análise de Dados do Mercado de Ações
-- [ ] Capítulo 11 - Estatística Fundamental Para Data Science
+- [x] Capítulo 11 - Estatística Fundamental Para Data Science
 - [ ] Capítulo 12 - Limpeza e Manipulação de Dados com Power BI
 - [ ] Capítulo 13 - Manipulação de Dados com Power Query M Language
 - [ ] Capítulo 14 - Power BI e Bancos de Dados
