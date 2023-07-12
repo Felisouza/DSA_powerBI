@@ -23,11 +23,11 @@ Ao participar deste curso, você receberá muito mais do que informações. Voc�
 - [x] Capítulo 9 - Power BI Para Análise de Dados Contábeis
 - [x] Capítulo 10 - Power BI Para Análise de Dados do Mercado de Ações
 - [x] Capítulo 11 - Estatística Fundamental Para Data Science
-- [ ] Capítulo 12 - Limpeza e Manipulação de Dados com Power BI
-- [ ] Capítulo 13 - Manipulação de Dados com Power Query M Language
-- [ ] Capítulo 14 - Power BI e Bancos de Dados
-- [ ] Capítulo 15 - SQL Analytics
-- [ ] Capítulo 16 - Machine Learning e Power BI Para Segmentação de Clientes
+- [x] Capítulo 12 - Limpeza e Manipulação de Dados com Power BI
+- [x] Capítulo 13 - Manipulação de Dados com Power Query M Language
+- [x] Capítulo 14 - Power BI e Bancos de Dados
+- [x] Capítulo 15 - SQL Analytics
+- [x] Capítulo 16 - Machine Learning e Power BI Para Segmentação de Clientes
 - [ ] Capítulo 17 - Machine Learning e Power BI Para Detecção de Anomalias
 - [ ] Capítulo 18 - Inteligência Artificial e Análise de Séries Temporais com Power BI
 - [ ] Capítulo 19 - Estudo de Caso - Transformação Digital com Microsoft Power Platform
