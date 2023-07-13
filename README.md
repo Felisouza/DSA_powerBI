@@ -28,7 +28,7 @@ Ao participar deste curso, você receberá muito mais do que informações. Voc�
 - [x] Capítulo 14 - Power BI e Bancos de Dados
 - [x] Capítulo 15 - SQL Analytics
 - [x] Capítulo 16 - Machine Learning e Power BI Para Segmentação de Clientes
-- [ ] Capítulo 17 - Machine Learning e Power BI Para Detecção de Anomalias
+- [x] Capítulo 17 - Machine Learning e Power BI Para Detecção de Anomalias
 - [ ] Capítulo 18 - Inteligência Artificial e Análise de Séries Temporais com Power BI
 - [ ] Capítulo 19 - Estudo de Caso - Transformação Digital com Microsoft Power Platform
 - [ ] Capítulo 20 - Avaliação e Certificado de Conclusão

@@ -1,0 +1,29 @@
+let
+    Fonte = Csv.Document(File.Contents("C:\Users\feh_s\DSA_powerBI\DSA_powerBI\cap_13\data\Clientes.csv"),[Delimiter=",", Columns=10, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"ID_Cliente", type text}, {"Idade", type text}, {"Peso", Int64.Type}, {"Altura", Int64.Type}, {"Estado Civil", type text}, {"Estado", type text}, {"Limite de Credito", Int64.Type}, {"Valor Desconto", Int64.Type}, {"Valor Compra", Int64.Type}, {"Tipo de Cliente", type text}}),
+    //Substituindo valor
+    #"Valor substituido" = Table.ReplaceValue(#"Tipo Alterado", "?", "45", Replacer.ReplaceText,{"Idade"}),
+    // Texto para numérico
+    #"AlterarTipo" = Table.TransformColumnTypes(#"Valor substituido", {{"Idade", type number}}),
+    // Removendo colunas
+    #"ColunaRemovida" = Table.RemoveColumns(#"AlterarTipo", {"Estado Civil"}),
+    // Adicionando coluna
+    #"ColunaAdicionada" = Table.AddColumn(#"ColunaRemovida", "Valor Final", each [Valor Compra] - [Valor Desconto]),
+    // Split coluna ID
+    #"SplitColunaID" = Table.SplitColumn(#"ColunaAdicionada", "ID_Cliente", Splitter.SplitTextByPositions({0,4}, false), {"ID_Cliente1", "ID_Cliente2"}),
+    #"AlterarTipoID" = Table.TransformColumnTypes(#"SplitColunaID", {{"ID_Cliente1", type text}, {"ID_Cliente2", Int64.Type}}),
+    // Renomeando colunas
+    #"RenomeandoCols" = Table.RenameColumns(#"AlterarTipoID", {{"ID_Cliente1", "Codigo"}, {"ID_Cliente2", "ID"}}),
+    // Coluna condicional desconto
+    #"ColunaCondicionalDesconto" = Table.AddColumn(
+        #"RenomeandoCols", "% Desconto", 
+        each if [Tipo de Cliente] = "Bronze" 
+        then 5 else if [Tipo de Cliente] = "Prata" 
+        then 10 else if [Tipo de Cliente] = "Ouro" 
+        then 15 else if [Tipo de Cliente] = "Diamante" 
+        then 20 else 0
+        )
+    
+in
+    #"ColunaCondicionalDesconto"
