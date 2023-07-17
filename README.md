@@ -30,7 +30,7 @@ Ao participar deste curso, você receberá muito mais do que informações. Voc�
 - [x] Capítulo 16 - Machine Learning e Power BI Para Segmentação de Clientes
 - [x] Capítulo 17 - Machine Learning e Power BI Para Detecção de Anomalias
 - [x] Capítulo 18 - Inteligência Artificial e Análise de Séries Temporais com Power BI
-- [ ] Capítulo 19 - Estudo de Caso - Transformação Digital com Microsoft Power Platform
-- [ ] Capítulo 20 - Avaliação e Certificado de Conclusão
+- [x] Capítulo 19 - Estudo de Caso - Transformação Digital com Microsoft Power Platform
+- [x] Capítulo 20 - Avaliação e Certificado de Conclusão
 
 Para mais informações sobre o curso, você pode acessar o [link](https://www.datascienceacademy.com.br/course/microsoft-power-bi-para-business-intelligence-e-data-science).
